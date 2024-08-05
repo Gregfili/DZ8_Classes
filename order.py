@@ -15,6 +15,9 @@ class Order:
 
     def __str__(self):
         return f"Order(products={[str(product) for product in self.products]})"
+    
+    def __repr__(self):
+        return f"Order(products={[product.name for product in self.products]})"
 
     @classmethod
     def get_total_orders(cls):

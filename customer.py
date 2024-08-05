@@ -9,3 +9,6 @@ class Customer:
 
     def __str__(self):
         return f"Customer(name={self.name}, orders={len(self.orders)})"
+    
+    def __repr__(self):
+        return f"Customer(name={self.name}, orders={len(self.orders)})"

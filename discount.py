@@ -24,3 +24,6 @@ class Discount:
 
     def __str__(self):
         return f"Discount(description={self.description}, discount_percent={self.discount_percent})"
+    
+    def __repr__(self):
+        return f"Discount(description={self.description}, discount_percent={self.discount_percent})"

@@ -6,6 +6,9 @@ class Product:
 
     def __str__(self):
         return f"Product(name={self.name}, price={self.price})"
+    
+    def __repr__(self):
+        return f"Product(name={self.name}, price={self.price})"
 
     def __eq__(self, other):
         if isinstance(other, Product):
