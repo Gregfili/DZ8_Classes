@@ -1,3 +1,4 @@
+
 from library_manager import Library, generate_report
 
 # Создаем экземпляр библиотеки
@@ -20,3 +21,4 @@ library.remove_book('Idiot')
 
 # Обновленный отчет
 print(generate_report(library))
+
